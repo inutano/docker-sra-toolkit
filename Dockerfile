@@ -20,7 +20,7 @@ RUN wget "http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/${VERSION}/sratoolkit.${VERS
 RUN git clone https://github.com/inutano/pfastq-dump && \
     cd pfastq-dump && \
     chmod a+x bin/pfastq-dump && \
-    cp pfastq-dump /usr/bin
+    cp bin/pfastq-dump /usr/bin
 
 # Default command
 WORKDIR /data
