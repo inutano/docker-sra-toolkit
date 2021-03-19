@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-ENV VERSION 2.10.7
+ENV VERSION 2.10.9
 RUN apt-get update -y && \
       apt-get install -y wget && \
       apt-get clean && \

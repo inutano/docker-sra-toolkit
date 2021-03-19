@@ -2,7 +2,7 @@
 
 See [github.com/ncbi/sra-tools/wiki](https://github.com/ncbi/sra-tools/wiki/) for more details.
 
-**Note: For the version 2.10.7, one needs to configure the tool interactively to run the tool, which means you cannot run the tool fully automatically, or in the distributed computing environment like HPC or Cloud instances.**
+**Note: For the version 2.10.7 and newer, users need to configure the tool interactively to run the tool, which means you cannot run the tool fully automatically, or in the distributed computing environment like HPC or Cloud instances. To use v2.10.x in the container-native manner, consider using the [official docker image](https://hub.docker.com/r/ncbi/sra-tools), which has pre-configured version.**
 
 So you need to do interactively:
 
